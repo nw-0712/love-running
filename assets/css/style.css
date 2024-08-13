@@ -1,4 +1,29 @@
-/* Asterisk wildcard selector is used to over ride default styles added byr the browser */
+/* Google font import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100 family=New+Amsterdam&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+/* Asterisk wildcard selector is used to over ride default styles added by the browser */
 * {
 padding: 0;
 margin: 0;
@@ -10,8 +35,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
     /*  Generic project styles */
     color: #3a3a3a;
+    font-family: Lato, sans-serif;
 
 }
 /* Header */
@@ -22,7 +49,7 @@ header {
 /* Main Content */
 main {
     background-color: lightblue;
-    /* make main element take up any surplus space to push footer down */
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
