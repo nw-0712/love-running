@@ -1,0 +1,21 @@
+/* Asterisk wildcard selector is used to over ride default styles added byr the browser */
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: lightcoral;
+}
+
+/* Main Content */
+main {
+    background-color: lightblue;
+}
+
+/* Footer */
+footer {
+    background-color: orange;
+}
