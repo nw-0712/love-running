@@ -1,6 +1,6 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100 family=New+Amsterdam&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@,100 family=New+Amsterdam&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@,100..900;100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 /* Asterisk wildcard selector is used to over ride default styles added by the browser */
@@ -104,6 +104,46 @@ main {
 #cover-text > h2, #cover-text > h3 {
 color: #ffffff;
 }
+
+#reasons {
+  width: 90%;
+  margin: 20px auto;
+}
+#reasons h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 280%;
+}
+#circle-cover-bg {
+  height: 90vw;
+  width: 90vw;
+  background: url("../images/reasons-image.webp") no-repeat top center / cover;
+  margin-bottom: 20px;
+  /* This make square into circle */
+  border-radius: 50%;
+  max-width: 300px;
+  max-height: 300px;
+}
+#benefits-image {
+ display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+  padding: 0 20px;
+}
+#benefits hr {
+border-top: 1px;
+color: #3a3a3a;
+margin: 5px 0;
+}
 /* Footer */
 #social-networks {
   text-align: center;
@@ -152,31 +192,6 @@ color: #3a3a3a;
    #cover-text {
   width: 300px;
   right: 50px;
-}
-#reasons {
-  width: 90%;
-  margin: 20px auto;
-}
-#reasons h2 {
-  margin-bottom: 20px;
-  text-align: center;
-  font-size: 280%;
-}
-#benefits-physical {
-  line-height: 20px;
-  margin-bottom: 20px;
-}
-#benefits-mental {
-  line-height: 20px;
-  margin-bottom: 20px;
-}
-#benefits p {
-  padding: 0 20px;
-}
-hr {
-border-top: 1px;
-color: #3a3a3a;
-margin: 5px 0;
 }
 }
 /* Larger devices (laptops & desktops) larger (992px and up) */
