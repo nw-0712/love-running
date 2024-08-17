@@ -1,6 +1,5 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@,100 family=New+Amsterdam&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@,100..900;100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 /* Asterisk wildcard selector is used to over ride default styles added by the browser */
@@ -84,7 +83,7 @@ nav {
 main {
   /* Enlarge main element take up any surplus space to push footer down */
   flex: 1 0 auto;
-  /* Add margin at the top tp prevent content from being covered by the header */
+  /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
     /* Enable flex properties for child elements */
     display: flex;
@@ -164,7 +163,7 @@ main {
   flex-wrap: wrap;
   }
 
-  #times div{
+  #times div {
   color: #fafafa;
   background-color: rgba(0, 0, 0, .6);
   padding: 15px;
@@ -173,7 +172,7 @@ main {
   Each div will expand to fill the available space on it's row */
   flex-basis: 200px;
   flex-grow: 1;
-  /* Creates a grid of meetup time divs over the background image */
+  /* Creates a grid of meetup time dives over the background image */
   border: 2px solid white;
   }
 
@@ -195,7 +194,7 @@ main {
   #signup {
     background-image: url("../images/signup-image.webp");
     background-size: cover;
-    background-image: 75%;
+    background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
      }
@@ -249,14 +248,14 @@ main {
   color: #3a3a3a;
 }
 
-/* Media queries: tablets and larger (576px and up) */
+/* Media query: tablets and larger (576px and up) */
 @media screen and (min-width: 576px) {
   #photos {
     column-count: 2;
     column-gap: 0;
   }
 
-/* Media queries: tablets and larger (768px and up) */
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
 /* Header */  
@@ -343,7 +342,6 @@ main {
   #photos {
     column-count: 4;
   }
-
   }
 /* Larger devices (laptops & desktops) larger (1,200px and up) */
 
