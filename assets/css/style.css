@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@,100 family=New+Amsterdam&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
 /* Asterisk wildcard selector is used to over ride default styles added by the browser */
@@ -79,6 +79,7 @@ nav {
 .nav-toggle-label {
   font-size: 2rem;
 }
+
 /* Main Content */
 main {
   /* Enlarge main element take up any surplus space to push footer down */
@@ -90,15 +91,14 @@ main {
     flex-direction: column;
      }
 
-
 /* Hero section */
 #hero {
-  #hero {
     height: 600px;
     width: 100%;
     background: url("assets/images/hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
+
 #cover-text {
   /* Final rgba value sets the opacity so it is semi-transparent */
   background-color: rgba(241, 109, 107, .7);
@@ -113,7 +113,7 @@ main {
 #cover-text > h2, #cover-text > h3 {
   color: #ffffff;
 }
-/* reasons section */
+/* Reasons section */
 #reasons {
   width: 90%;
   margin: 20px auto;
@@ -122,12 +122,6 @@ main {
   margin-bottom: 20px;
   text-align: center;
   font-size: 280%;
-}
-
-#benefits-image {
-  display:flex;
-  align-items: center;
-  justify-content: center;
 }
 
 #benefits-physical > div,
@@ -139,11 +133,12 @@ main {
 #benefits p {
   padding: 0 20px;
 }
+
 #benefits hr {
-  border-top: 1px;
-  color: #3a3a3a;
+  border-top: 1px solid #3a3a3a;
   margin: 5px 0;
 }
+
 #circle-cover-bg {
   height: 90vw;
   width: 90vw;
@@ -155,7 +150,13 @@ main {
   max-height: 300px;
 }
 
-/* meet up times section */
+#benefits-image {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Meet up times section */
 #times {
   background: url("assets/images/dublin-city.webp") no-repeat center/cover;
   /* Handles responsivity without the need for a media query */
@@ -190,6 +191,7 @@ main {
   #photos {
   line-height: 0;
   }
+
   /* Sign up form */
   #signup {
     background-image: url("assets/images/signup-image.webp");
@@ -198,7 +200,7 @@ main {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
      }
-   #signup-form> h2 {
+   #signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
    }
@@ -206,8 +208,9 @@ main {
    #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
-    padding-right: 30px;
+    padding: 30px;
    }
+
    .text-input {
     background: transparent;
     color: #fafafa;
@@ -231,7 +234,7 @@ main {
     font-size: 100%;
     background-color: #454b1b;
     color: #fafafa;
-   }
+  }
 
 /* Footer */
 #social-networks {
@@ -266,9 +269,11 @@ main {
   width: fit-content;
   padding-right: 1rem;
   }
+
   #menu {
   display: flex;
   }
+
   #menu > li {
   padding-left: 1rem;
   }
@@ -326,7 +331,7 @@ main {
 .text-input:hover {
   border-color: #f16c6b;
 }
-.join-button: :hover {
+.join-button: hover {
   background-color: #fafafa;
   color: #454b1b;
 }
